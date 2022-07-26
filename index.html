@@ -8,7 +8,62 @@
 </head>
 <body>
     
+    <form>
+
+        <fieldset>
+         <legend>Datos Personal</legend>
+         Nombre:* <input name='nombre' type='text' tabindex='1'>
+         Apellidos:* <input name='apellidos' type='text' tabindex='2'>
+         Documento:* <input name='apellidos' type='number' tabindex='3'>
+        </fieldset>
+
+        <fieldset>
+            <legend>Datos de Contacto</legend>
+            Teléfono: <input name='telefono' type='number' tabindex='1'>
+            Dirección de correo electrónico:* <input name='apellidos' type='text' tabindex='2'>
+           </fieldset>
+       
+        <fieldset>
+         <legend>Actividades</legend>
+         Por favor, indicá cuáles actividades te interesan.
+
+         Sede Palermo:
+
+         <input type='checkbox' tabindex='20'
+                value='20-39' > Básquet
+         <input type='checkbox' tabindex='21'
+                value='40-59' > Boxeo
+         <input type='checkbox' tabindex='22'
+                value='60-79' > Fútbol
+         <input type='checkbox' tabindex='22'
+                value='60-79' > Tenis
 
 
-</body>
+        <label for="">Sede Rosario:</label>
+
+         <input type='checkbox' tabindex='20'
+                value='20-39' > Básquet
+         <input type='checkbox' tabindex='21'
+                value='40-59' > Fútbol
+         <input type='checkbox' tabindex='22'
+                value='60-79' > Rugby
+         <input type='checkbox' tabindex='22'
+                value='60-79' > Voley
+
+        </fieldset>
+       
+        <input type='checkbox' tabindex='22'
+                value='60-79' > Acepto las condiciones*
+         <input type='checkbox' tabindex='22'
+                value='60-79' > Deseo recibir novedades
+
+        <label for="">*:campo obligatorio.</label>
+
+        <button>Iniciar afiliación</button>
+
+        <input type="button" value="Restablecer">
+
+       </form>
+
+
 </html>
